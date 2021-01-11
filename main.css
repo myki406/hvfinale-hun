@@ -1,0 +1,44 @@
+
+@media only screen
+    and (min-device-width: 1px) 
+  and (max-device-width: 1360px)
+  and (orientation: portrait)
+{
+    body {
+      background: url('mobile_bg_HD.jpg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-attachment: fixed;
+      background-position: 45% 45%;
+      background-position: top;
+    }
+    .loadframe {
+      position: absolute;
+      left: 50%;
+      margin-left: -29vw;
+      top: 36vw;
+      width: 59vw;
+      height: auto;
+      /*border: 2px solid red;*/
+      }
+}
+
+@media only screen
+    and (min-device-width: 1px)
+{
+    body {
+      background: url('desktop_bg_HD.jpg');
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-color: black;
+      background-attachment: fixed;
+      background-position: 45% 45%;
+      background-position: top;
+    }
+    .loadframe {
+      position: relative;
+      width: 28vw; height: 21.2vw; left: 50%; margin-left: -14vw; top: 16.4vw;
+      border: 2px solid red;
+      }
+}
