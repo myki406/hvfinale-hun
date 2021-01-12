@@ -1,3 +1,41 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+input {border: none; width: 3.5vw;}
+.sociallinks { margin-left: 36.5vw; width: 28.3vw;}
+.merch { margin-left: 38vw; width: 23.5vw;}
+.footer {
+  background-color: hsla(0, 0%, 0%, 0.5); 
+  color: aliceblue;
+  position: absolute;
+  left: 0%;
+  width: 100vw;
+  bottom: 0.1vh;
+}
+
+.youtube {background:transparent url("yt.png") no-repeat 0 0; background-size: 3.5vw;}
+.youtube:hover {background:transparent url("yt-hover.png") no-repeat 0 0; background-size: 3.5vw;}
+.facebook {background:transparent url("fb.png") no-repeat 0 0; background-size: 3.5vw;}
+.facebook:hover {background:transparent url("fb-hover.png") no-repeat 0 0; background-size: 3.5vw;}
+.instagram {background:transparent url("insta.png") no-repeat 0 0; background-size: 3.5vw;}
+.instagram:hover {background:transparent url("insta-hover.png") no-repeat 0 0; background-size: 3.5vw;}
+.twitter {background:transparent url("tw.png") no-repeat 0 0; background-size: 3.5vw;}
+.twitter:hover {background:transparent url("tw-hover.png") no-repeat 0 0; background-size: 3.5vw;}
+.spotify {background:transparent url("spoti.png") no-repeat 0 0; background-size: 3.5vw;}
+.spotify:hover {background:transparent url("spoti-hover.png") no-repeat 0 0; background-size: 3.5vw;}
+.gmail {background:transparent url("gmail.png") no-repeat 0 0; background-size: 3.5vw;}
+.gmail:hover {background:transparent url("gmail-hover.png") no-repeat 0 0; background-size: 3.5vw;}
+.bandcamp {background:transparent url("bandcamp.png") no-repeat 0 0; background-size: 3.5vw;}
+.bandcamp:hover {background:transparent url("bandcamp-hover.png") no-repeat 0 0; background-size: 3.5vw;}
+
+.merch input {border: none; width: 23.5vw;}
+.merchlink {background:transparent url("merch.png") no-repeat 0 0; background-size: 23.5vw;}
+.merchlink:hover {background:transparent url("merch-hover.png") no-repeat 0 0; background-size: 23.5vw;}
+
+
+
 @media only screen
     and (min-device-width: 160px) 
   and (max-device-width: 1360px)
