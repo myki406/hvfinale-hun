@@ -12,8 +12,7 @@ input {border: none; width: 3.5vw;}
   position: absolute;
   left: 0%;
   width: 100vw;
-  bottom: 3vh;
-  height: 8vh;
+  bottom: 0.1vh;
 }
 
 .youtube {background:transparent url("yt.png") no-repeat 0 0; background-size: 3.5vw;}
