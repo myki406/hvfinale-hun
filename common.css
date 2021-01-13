@@ -8,22 +8,24 @@
     background-color: hsla(0, 0%, 0%, 0.5);
     position: absolute;
     bottom: 0vw;
-    width: 100%;
+    width: 99%;
     height: 22vw;
   }
   input {border: none; width: 13.5vw;}
 .sociallinks { margin-left: 27.5vw; width: 68.3vw; padding-top: 1vw;}
-.merch { margin-left: 38vw; width: 23.5vw; padding-top: 0.5vw;}
   .facebook {background:transparent url("fb.png") no-repeat 0 0; background-size: 13.5vw;}
   .instagram {background:transparent url("insta.png") no-repeat 0 0; background-size: 13.5vw;}
   .twitter {background:transparent url("tw.png") no-repeat 0 0; background-size: 13.5vw;}
   .merch input {border: none; width: 93.5vw;}
+  .merch { margin-left: 38vw; width: 23.5vw; padding-top: 2.5vw;}
 .merchlink {background:transparent url("merch.png") no-repeat 0 0; background-size: 93.5vw; margin-left: -35vw;
-  padding-top: 2vw;}
+  padding-top: 2vw;
+  }
   .youtube {display: none;}
   .spotify {display: none;}
   .gmail {display: none;}
   .bandcamp {display: none;}
+  .szamlalo {display: none;}
   
 /****************************************/
 /* common styles used for v1 through v4 */
@@ -78,19 +80,20 @@ background: url('mobile_bg_HD.jpg');
 }
   
   .loadframe {
-    display: none;
+    /*display: none;*/
     position: relative;
       left: 50%;
-      margin-left: -29vw;
-      top: -14vw;
-      width: 59vw;
-      height: auto;
+      margin-left: -32.8vw;
+      top: -17vw;
+      width: 65.6vw;
+      height: 49.5vw;
+    
       
   }
   
   .arrow-left{
     margin-left:  15vw;
-    margin-top: 46vw;
+    margin-top: -2.6vw;
   width: 0; 
   height: 0; 
   border-top: 9vw solid transparent;
@@ -102,13 +105,13 @@ background: url('mobile_bg_HD.jpg');
     background-repeat: no-repeat;
     background-size: 14vw;
     margin-left:  16vw;
-    margin-top: 38vw;
+    margin-top: -11.6vw;
     height: 9vw;
     
   }
     .arrow-right{
-    margin-left:  39vw;
-    margin-top: -14vw;
+    margin-left:  40vw;
+    margin-top: -15vw;
     width: 0; 
     height: 0; 
     border-top: 9vw solid transparent;
@@ -124,7 +127,7 @@ background: url('mobile_bg_HD.jpg');
     background-size: 14vw;
     height: 5vw;
     margin-left:  40vw;
-    margin-top: -17.5vw;
+    margin-top: -18.5vw;
   }
   
   .arrow-up {
@@ -170,7 +173,7 @@ background: url('mobile_bg_HD.jpg');
     top: 148vw;
     margin-left: 8vw;
   }
-  
+  .madeby {position: absolute; font-size: 1.8rem; color: grey; left: 20vw;}
   
 }
 /*
@@ -242,7 +245,7 @@ background: url('desktop_bg_HD.jpg');
 
 .loadframe {
       position: absolute;
-      width: 28vw; height: 21.2vw; left: 50%; margin-left: -14vw; top: 16.4vw;
+      width: 28vw; height: 21.7vw; left: 50%; margin-left: -14vw; top: 16.4vw;
       
       }
 
@@ -341,7 +344,7 @@ background: url('desktop_bg_HD.jpg');
     width: 22vw;
     height: 35vw;
     top: 1.3vw;
-    left: 66.9vw;
+    left: 67.4vw;
     transform: rotate(0deg);
     transform: scale(1.01);
     background: url("highway.png") no-repeat 0 0;
@@ -362,7 +365,7 @@ background: url('desktop_bg_HD.jpg');
     position: absolute;
     width: 8.4vw;
     height: 4.8vw;
-    left: 68vw;
+    left: 68.5vw;
     top: 35.1vw;
     transform: rotate(0deg);
     transform: scale(1.1);
@@ -408,7 +411,7 @@ input {border: none; width: 3.5vw;}
   color: aliceblue;
   position: absolute;
   left: 0%;
-  width: 100vw;
+  width: 99vw;
   bottom: -8vh;
   height: 7vw;
 }
@@ -431,5 +434,6 @@ input {border: none; width: 3.5vw;}
 .merch input {border: none; width: 23.5vw;}
 .merchlink {background:transparent url("merch.png") no-repeat 0 0; background-size: 23.5vw;}
 .merchlink:hover {background:transparent url("merch-hover.png") no-repeat 0 0; background-size: 23.5vw;}
-  
+  .madeby {position: absolute; font-size: 0.8rem; color: grey; left: 42.5vw;}
+  .szamlalo {display: none;}
 }
