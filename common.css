@@ -434,6 +434,6 @@ input {border: none; width: 3.5vw;}
 .merch input {border: none; width: 23.5vw;}
 .merchlink {background:transparent url("merch.png") no-repeat 0 0; background-size: 23.5vw;}
 .merchlink:hover {background:transparent url("merch-hover.png") no-repeat 0 0; background-size: 23.5vw;}
-  .madeby {position: absolute; font-size: 0.8rem; color: grey; left: 42.5vw;}
+  .madeby {position: absolute; font-size: 1.2rem; color: grey; left: 39.5vw; padding-top: 0.3vw;}
   .szamlalo {display: none;}
 }
