@@ -55,7 +55,7 @@ background: url('mobile_bg_HD.jpg');
 #hud                   { position: absolute; z-index: 1; width: 640px; padding: 5px 0; font-family: Verdana, Geneva, sans-serif; font-size: 0.8em; color: black; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
 #hud .hud              { background-color: padding: 5px; margin: 0 5px; transition-property: background-color; transition-duration: 2s; -webkit-transition-property: background-color; -webkit-transition-duration: 2s; }
 #hud #speed            { float: right; }
-#hud #current_lap_time { float: left;  }
+#hud #current_lap_time { float: left; width: 17em; }
 #hud #last_lap_time    { float: left; display: none;  }
 #hud #fast_lap_time    { float: left; width: 12em; text-align: left; transition-property: background-color; transition-duration: 2s; -webkit-transition-property: background-color; -webkit-transition-duration: 2s;}
 /*#hud .value            { color: black; font-weight: bold; }*/
@@ -216,9 +216,9 @@ background: url('desktop_bg_HD.jpg');
 #hud #speed            { float: right; }
 #hud #current_lap_time { float: left;  }
 #hud #last_lap_time    { float: left; display: none;  }
-#hud #fast_lap_time    { float: left; width: 12em; text-align: left; transition-property: background-color; transition-duration: 2s; -webkit-transition-property: background-color; -webkit-transition-duration: 2s;}
+#hud #fast_lap_time    { float: left; font-size: 1vw; width: 12em; text-align: left; transition-property: background-color; transition-duration: 2s; -webkit-transition-property: background-color; -webkit-transition-duration: 2s;}
 /*#hud .value            { color: black; font-weight: bold; }*/
-#hud .fastest          { display: none; background-color: rgba(255,215,0,0); }
+#hud .fastest          { display: left; background-color: rgba(255,215,0,0); }
 
 @font-face {
     font-family: 'pixel';
